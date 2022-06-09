@@ -1,8 +1,11 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 table {
-    width: 400px;
+    width: 100%;
     border-collapse: collapse;
     border: 5px solid rgba(27, 1, 39, 0.459);
 }
@@ -20,6 +23,7 @@ td.dado {
     background-color: rgb(220, 188, 224);
 }
 
-img { text-align: center;
+.centro { 
+    text-align: center;
     
 }
